@@ -1,0 +1,31 @@
+li {
+    padding-left: 12px;
+    cursor: pointer;
+    color: #ff6000;
+}
+
+li::marker {
+    content: '>'
+}
+
+h5 {
+    display: list-item;
+    padding-left: 8px;
+    cursor: pointer;
+}
+
+.hello::marker {
+    content: '▍';
+}
+
+.world::marker {
+    content: '😅';
+}
+
+.pages::marker {
+    content: '😩'
+}
+
+.pages:hover::marker {
+    content: '😁'
+}
